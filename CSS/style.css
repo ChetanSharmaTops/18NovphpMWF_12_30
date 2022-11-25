@@ -1,0 +1,10 @@
+ /* selector{
+            property1: value1;
+            property2: value2;
+        } */
+.external{
+    color: blueviolet;
+}
+p{
+    color: rgb(43, 226, 125);
+}
