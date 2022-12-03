@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        font-size: 50px;
+        color: blue;
+      }
+      p::first-line {
+        background-color: rgb(235, 116, 18);
+        color: white;
+      }
+      p::selection {
+        background-color: teal;
+        color: #ffcc00;
+      }
+      h2::after {
+        content: "!";
+      }
+      h2::before {
+        content: "~";
+      }
+      input::placeholder{
+        color: blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Tops Technologies</h2>
+    <h2>Best Institute</h2>
+    <h2>Gujarat</h2>
+    <hr>
+    <div>
+      <h2>Test</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magni
+        necessitatibus neque voluptas quasi quaerat architecto nemo rem alias
+        laudantium autem, harum nihil nam velit earum officia non eveniet
+        nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Deserunt sed necessitatibus porro maxime ut quod enim ex nemo optio
+        ratione minima repellat obcaecati quidem vero, voluptatibus quos.
+        Delectus, asperiores magnam!
+      </p>
+    </div>
+    <input type="text" placeholder="Type here">
+  </body>
+</html>

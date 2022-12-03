@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo Class Selector</title>
+    <style>
+      div {
+        color: rgb(14, 214, 154);
+      }
+      a:link {
+        color: rgb(152, 12, 233);
+      }
+      a:visited {
+        color: rgb(14, 236, 21);
+      }
+      a:active {
+        color: rgb(245, 39, 16);
+      }
+      input:focus-visible {
+        outline: 2px solid rgb(238, 12, 238);
+        border: 2px solid green;
+      }
+      div:empty {
+        height: 20px;
+        background: rgb(223, 247, 6);
+      }
+      img{
+        width: 100px;
+      }
+      img:hover{
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore at
+        repellat quis ad recusandae nostrum porro doloremque impedit
+        exercitationem, natus praesentium neque est eos dolore qui corrupti cum
+        ea nisi?
+      </p>
+    </div>
+    <hr />
+    <input type="text" name="" id="" />
+    <hr />
+    <div></div>
+    <div>
+      <p>test</p>
+      <a href="#">Something</a>
+    </div>
+    <hr>
+    <a href="https://www.google.com">Google</a>
+    <hr>
+    <img src="../../Images/banner1.jpg" alt="">
+  </body>
+</html>
